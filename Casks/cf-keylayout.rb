@@ -18,7 +18,9 @@ cask "cf-keylayout" do
   caveats <<~str
     Pour utiliser le clavier installé ou mis à jour, ajoutez-le dans les
     préférences Clavier, onglet 'Méthodes de saisie'/'Input Sources':
+
       open /System/Library/PreferencePanes/Keyboard.prefPane
-    -> Le clavier se trouve dans la section 'Autres'/'Others', et non Français.
+
+    ** Le clavier se trouve dans la section 'Autres'/'Others', et non Français. **
   str
 end
